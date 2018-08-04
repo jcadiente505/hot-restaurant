@@ -1,6 +1,6 @@
 const path = require('path')
 
-module.exports(app => {
+module.exports = app => {
 
     app.get("/", function (req, res) {
         res.sendFile(path.join(__dirname, "../view.html"));
@@ -14,4 +14,4 @@ module.exports(app => {
         res.sendFile(path.join(__dirname, "../tables.html"));
     });
 
-});
+};
