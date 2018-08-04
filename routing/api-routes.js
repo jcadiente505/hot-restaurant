@@ -1,5 +1,5 @@
-var tableList = require('./data/table-data.js');
-var waitList = require('./data/table-data.js');
+var tableList = require('../data/table-data.js');
+var waitList = require('../data/waitinglist-data.js');
 
 module.exports = app => {
 
